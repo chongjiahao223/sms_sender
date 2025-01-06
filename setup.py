@@ -5,6 +5,8 @@ setup(
     name="sms_sender_cjh",
     version="0.1",
     packages=find_packages(),
+    long_description=open('README.md').read(),  # 读取 README 文件作为包描述
+    long_description_content_type='text/markdown',
     install_requires=[
         "aliyun-python-sdk-core",
         "aliyun-python-sdk-dysmsapi",
