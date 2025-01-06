@@ -12,5 +12,5 @@ setup(
     description="发送短信包",
     author="CJH",
     author_email="942130598@qq.com",
-    url="https://github.com/chongjiahao223/python-sms_sender.git"
+    url="https://github.com/chongjiahao223/sms_sender.git"
 )
