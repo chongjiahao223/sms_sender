@@ -1,4 +1,4 @@
-from sender.aliyun_sender import AliyunSmsSender
+from src.sender.aliyun_sender import AliyunSmsSender
 
 
 class SmsSenderFactory:

@@ -1,6 +1,3 @@
-from sender.aliyun_sender import AliyunSmsSender
-from utils import generate_sms_code
-
 # 设置 Aliyun 的配置参数（通常这些会放在 settings配置中）
 ALIYUN_ACCESS_KEY_ID = ''  # 替换为你的阿里云 Access Key ID
 ALIYUN_ACCESS_KEY_SECRET = ''  # 替换为你的阿里云 Access Key Secret

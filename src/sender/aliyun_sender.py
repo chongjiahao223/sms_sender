@@ -3,7 +3,7 @@ import json
 from aliyunsdkcore.client import AcsClient
 from aliyunsdkdysmsapi.request.v20170525.SendSmsRequest import SendSmsRequest
 
-from sender.base import BaseSmsSender
+from src.sender.base import BaseSmsSender
 
 
 class AliyunSmsSender(BaseSmsSender):
